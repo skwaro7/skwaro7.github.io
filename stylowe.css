@@ -1,0 +1,89 @@
+/*this is how you comment */
+body {
+	background: #D3D9DE;
+	background-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.photo {
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	margin: auto;
+}
+
+.navbar div {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a {
+	text-decoration: none;
+	color: black;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: blue;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+h1 {
+    
+	font-size: 40px;
+	text-shadow: 3px 2px gold;
+	text-align: center;
+}
+
+h2 {
+	text-decoration: underline;
+	text-shadow: 2px 1px gold;
+	text-align: center;
+}
+
+p, ul, li {
+	padding: 20px;
+}
+
+p, li {
+	font-weight: bold;
+}
+
+li {
+	margin: 0px;
+	text-decoration: italic;
+}
+
+div {
+	padding-bottom: 10px;
+	margin-right: 4px;
+	margin-bottom: 10px;
+	border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 4px lightblue;
+}
+
+.inline {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+}
+
+.child {
+	border: 1px solid black;
+	width: 30%;
+	order: 1;
+	flex-grow: 1;
+}
+
